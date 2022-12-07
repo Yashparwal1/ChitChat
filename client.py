@@ -2,7 +2,7 @@
 import socket
 import threading
 
-#tread recieve function
+#thread recieve function
 def thread_recv(s,signal):
   while True:
       tmp_recv = s.recv(1024)
@@ -14,7 +14,7 @@ def thread_recv(s,signal):
 
 #main function for establishing connection and sending data
 def main():
-  HOST = "127.0.0.1" #IP address of server
+  HOST = "127.0.0.1" #IP address
   PORT = 1234 #Port no. to connect with
   s = socket.socket()
   s.connect((HOST,PORT))
