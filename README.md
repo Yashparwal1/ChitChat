@@ -1,5 +1,5 @@
 # Client-Server Model
-This is a simple full-duplex Client Server communication program with XOR encryption using Socket-Programming and multi-threading in python.
+This is a simple full-duplex Client Server communication program with XOR encryption using Socket-Programming and multi-threading in python!
 
 ## Demo image for communication between client and server
 
